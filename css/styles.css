@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (min-width: 300px) {
   .contacto_msj {
     width: 50vh;
@@ -125,6 +126,9 @@ p {
   .card {
     margin-top: 10vh;
     margin-bottom: 15vh;
+  }
+  .lamparas-tamaño {
+    width: 40vh;
   }
 }
 @media (min-width: 850px) {
