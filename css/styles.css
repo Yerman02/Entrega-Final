@@ -1,0 +1,93 @@
+@media (min-width: 300px) {
+  .contacto_msj {
+    width: 50vh;
+  }
+  .formulario_contacto {
+    width: 20vh;
+  }
+  .text-area {
+    width: 20vh;
+    height: 20vh;
+  }
+  .contacto-orden {
+    display: flex;
+    justify-content: center;
+  }
+  .boton_margin {
+    margin-bottom: 20vh;
+  }
+}
+@media (min-width: 800px) {
+  .text-area {
+    width: 40vh;
+    height: 40vh;
+  }
+  h2 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+}
+h1 {
+  font-weight: bold;
+  font-family: Gill Sans;
+  background-color: #ee8762;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(204, 204, 191);
+}
+
+footer {
+  background-color: #ee8762;
+  display: flex;
+  justify-content: center;
+}
+
+.img-footer {
+  width: 10vh;
+}
+
+@media (min-width: 300px) {
+  .carousel {
+    margin-bottom: 16vh;
+    margin-top: 10vh;
+    height: 32vh;
+    width: 26vh;
+  }
+  .carousel-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-carousel {
+    height: 30vh;
+    width: 30vh;
+  }
+}
+@media (min-width: 800px) {
+  .carousel {
+    margin-top: 10vh;
+    height: 40vh;
+    width: 40vh;
+  }
+  .carousel-flex-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .img-carousel {
+    height: 40vh;
+    width: 40vh;
+  }
+  .carousels {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
