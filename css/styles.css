@@ -50,6 +50,12 @@ footer {
   width: 10vh;
 }
 
+.mapa-centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (min-width: 300px) {
   .carousel {
     margin-bottom: 16vh;
