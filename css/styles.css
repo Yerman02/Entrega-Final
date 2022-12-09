@@ -142,8 +142,10 @@ p {
     width: 40vh;
     height: 30vh;
   }
+}
+@media (min-width: 1200px) {
   .card {
-    margin-left: 20vh;
+    margin-left: 14vh;
   }
 }
 * {

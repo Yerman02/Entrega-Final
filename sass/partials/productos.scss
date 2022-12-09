@@ -24,8 +24,9 @@
         width: 40vh;
         height: 30vh;
     }
-    .card{
-        margin-left: 20vh;
-    }
-
+}
+@media (min-width:1200px){
+.card{
+    margin-left: 14vh;
+}
 }
