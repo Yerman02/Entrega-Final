@@ -1,0 +1,28 @@
+@media (min-width:300px){
+    .tipos_productos{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+.card-img-top{
+    width: 29.5vh;
+    height: 30vh;
+}
+.card{
+
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+
+}
+}
+
+@media (min-width:850px){
+    .card-img-top{
+        width: 40vh;
+        height: 30vh;
+    }
+    .card{
+        margin-left: 20vh;
+    }
+}

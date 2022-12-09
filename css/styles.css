@@ -23,6 +23,7 @@
     height: 40vh;
   }
   h2 {
+    width: 40vh;
     margin-top: 4vh;
     margin-bottom: 2vh;
   }
@@ -83,6 +84,56 @@ footer {
   .carousels {
     margin-top: 10vh;
     margin-bottom: 10vh;
+  }
+}
+h3 {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  background-color: #ee8762;
+}
+
+p {
+  font-size: x-large;
+}
+
+@media (min-width: 300px) {
+  .mapa {
+    margin-bottom: 4vh;
+    height: 40vh;
+    width: 30vh;
+  }
+}
+@media (min-width: 800px) {
+  .mapa {
+    margin-bottom: 4vh;
+    height: 40vh;
+    width: 80vh;
+  }
+}
+@media (min-width: 300px) {
+  .tipos_productos {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .card-img-top {
+    width: 29.5vh;
+    height: 30vh;
+  }
+  .card {
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+  }
+}
+@media (min-width: 850px) {
+  .card-img-top {
+    width: 40vh;
+    height: 30vh;
+  }
+  .card {
+    margin-left: 20vh;
   }
 }
 * {
